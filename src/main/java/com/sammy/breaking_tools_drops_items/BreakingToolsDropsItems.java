@@ -11,7 +11,8 @@ public class BreakingToolsDropsItems {
 	
 	public static final Logger logger = LogUtils.getLogger();
 	
-	public BreakingToolsDropsItems() {
+	public BreakingToolsDropsItems() throws Exception {
 		MinecraftForge.EVENT_BUS.register(this);
+		BtdsConfig.register();
 	}
 }
