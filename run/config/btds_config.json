@@ -1,1 +1,7 @@
-{"item_drops":{"minecraft:golden_shovel":{"minecraft:golden_shovel":  1000}}}
+{
+  "item_drops": {
+    "minecraft:golden_shovel": {
+      "minecraft:golden_shovel": 10
+    }
+  }
+}

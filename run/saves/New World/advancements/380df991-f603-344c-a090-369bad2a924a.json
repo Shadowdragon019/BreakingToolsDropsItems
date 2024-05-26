@@ -8,10 +8,12 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:frozen_river": "2024-05-25 12:54:49 -0500",
+      "minecraft:beach": "2024-05-26 13:09:06 -0500",
       "minecraft:ice_spikes": "2024-05-25 10:06:12 -0500",
       "minecraft:frozen_ocean": "2024-05-25 12:54:54 -0500",
       "minecraft:deep_frozen_ocean": "2024-05-25 12:55:32 -0500",
-      "minecraft:snowy_beach": "2024-05-25 10:39:41 -0500"
+      "minecraft:snowy_beach": "2024-05-25 10:39:41 -0500",
+      "minecraft:plains": "2024-05-26 13:08:56 -0500"
     },
     "done": false
   },
@@ -385,6 +387,60 @@
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2024-05-26 12:57:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-26 13:54:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2024-05-26 13:54:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-26 13:54:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-26 13:54:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-26 13:54:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-26 13:54:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-26 13:54:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-26 13:54:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-26 13:54:51 -0500"
     },
     "done": true
   },

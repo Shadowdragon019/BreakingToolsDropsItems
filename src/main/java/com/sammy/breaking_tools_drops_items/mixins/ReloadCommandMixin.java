@@ -15,7 +15,7 @@ import java.util.Collection;
 @Mixin(ReloadCommand.class)
 abstract public class ReloadCommandMixin {
 	@Inject(method = "discoverNewPacks", at = @At("HEAD"))
-	private static void discoverNewPacksMixin(PackRepository packRepository, WorldData worldData, Collection<String> selectedIds, CallbackInfoReturnable<Collection<String>> cir) throws Exception {
+	private static void discoverNewPacksMixin(PackRepository packRepository, WorldData worldData, Collection<String> selectedIds, CallbackInfoReturnable<Collection<String>> cir) {
 		BtdsConfig.reload();
 	}
 }
