@@ -16,7 +16,7 @@ public class BtdsConfig {
 	public static final Path path = Path.of(FMLPaths.CONFIGDIR.get().toString() + "/btds_config.json");
 	public static HashMap<String, HashMap<String, Integer>> itemDrops = new HashMap<>();
 	
-	public static void register() throws Exception {
+	public static void reload() throws Exception {
 		Gson gson = new Gson();
 		if (!Files.exists(path)) {
 			JsonWriter writer = new JsonWriter(new FileWriter(path.toString()));
@@ -31,6 +31,7 @@ public class BtdsConfig {
 			defaultData.add(
 					"item_drops", itemDrops
 			);
+			
 			// closing
 			gson.toJson(defaultData, writer);
 			writer.close();

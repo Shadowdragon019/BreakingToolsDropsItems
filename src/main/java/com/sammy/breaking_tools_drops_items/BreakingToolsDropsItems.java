@@ -13,6 +13,6 @@ public class BreakingToolsDropsItems {
 	
 	public BreakingToolsDropsItems() throws Exception {
 		MinecraftForge.EVENT_BUS.register(this);
-		BtdsConfig.register();
+		BtdsConfig.reload();
 	}
 }

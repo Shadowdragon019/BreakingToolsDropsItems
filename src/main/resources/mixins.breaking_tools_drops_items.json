@@ -3,7 +3,8 @@
   "package": "com.sammy.breaking_tools_drops_items.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ItemStackMixin"
+    "ItemStackMixin",
+    "ReloadCommandMixin"
   ],
   "injectors": {
     "defaultRequire": 1
