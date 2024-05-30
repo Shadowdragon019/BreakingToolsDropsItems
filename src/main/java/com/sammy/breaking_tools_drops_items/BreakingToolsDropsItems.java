@@ -11,6 +11,9 @@ import org.slf4j.Logger;
 public class BreakingToolsDropsItems {
 	public static final String mod_id = "breaking_tools_drops_items";
 	
+	@SuppressWarnings("unused")
+	public static final String displayName = "Breaking Tools Drops Items";
+	
 	public static final Logger logger = LogUtils.getLogger();
 	
 	public static final Registrate registrate = Registrate.create(mod_id);

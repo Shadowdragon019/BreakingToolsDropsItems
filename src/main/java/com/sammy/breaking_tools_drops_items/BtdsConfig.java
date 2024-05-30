@@ -19,7 +19,9 @@ public class BtdsConfig {
 	public static final Path path = Path.of(FMLPaths.CONFIGDIR.get().toString() + "/btds_config.json");
 	
 	public static HashMap<String, HashMap<String, Integer>> drops = new HashMap<>();
+	
 	public static HashMap<String, List<String>> commands = new HashMap<>();
+	
 	public static void reload() {
 		try {
 			Gson gson = new Gson();
