@@ -1,0 +1,94 @@
+{
+  "variants": {
+    "facing=east,is_higher_up=false,panel_state=broken": {
+      "model": "breaking_tools_drops_items:block/broken_panel",
+      "y": 90
+    },
+    "facing=east,is_higher_up=false,panel_state=fixed": {
+      "model": "breaking_tools_drops_items:block/fixed_panel",
+      "y": 90
+    },
+    "facing=east,is_higher_up=false,panel_state=perma_broken": {
+      "model": "breaking_tools_drops_items:block/perma_broken_panel",
+      "y": 90
+    },
+    "facing=east,is_higher_up=true,panel_state=broken": {
+      "model": "breaking_tools_drops_items:block/broken_panel_higher_up",
+      "y": 90
+    },
+    "facing=east,is_higher_up=true,panel_state=fixed": {
+      "model": "breaking_tools_drops_items:block/fixed_panel_higher_up",
+      "y": 90
+    },
+    "facing=east,is_higher_up=true,panel_state=perma_broken": {
+      "model": "breaking_tools_drops_items:block/perma_broken_panel_higher_up",
+      "y": 90
+    },
+    "facing=north,is_higher_up=false,panel_state=broken": {
+      "model": "breaking_tools_drops_items:block/broken_panel"
+    },
+    "facing=north,is_higher_up=false,panel_state=fixed": {
+      "model": "breaking_tools_drops_items:block/fixed_panel"
+    },
+    "facing=north,is_higher_up=false,panel_state=perma_broken": {
+      "model": "breaking_tools_drops_items:block/perma_broken_panel"
+    },
+    "facing=north,is_higher_up=true,panel_state=broken": {
+      "model": "breaking_tools_drops_items:block/broken_panel_higher_up"
+    },
+    "facing=north,is_higher_up=true,panel_state=fixed": {
+      "model": "breaking_tools_drops_items:block/fixed_panel_higher_up"
+    },
+    "facing=north,is_higher_up=true,panel_state=perma_broken": {
+      "model": "breaking_tools_drops_items:block/perma_broken_panel_higher_up"
+    },
+    "facing=south,is_higher_up=false,panel_state=broken": {
+      "model": "breaking_tools_drops_items:block/broken_panel",
+      "y": 180
+    },
+    "facing=south,is_higher_up=false,panel_state=fixed": {
+      "model": "breaking_tools_drops_items:block/fixed_panel",
+      "y": 180
+    },
+    "facing=south,is_higher_up=false,panel_state=perma_broken": {
+      "model": "breaking_tools_drops_items:block/perma_broken_panel",
+      "y": 180
+    },
+    "facing=south,is_higher_up=true,panel_state=broken": {
+      "model": "breaking_tools_drops_items:block/broken_panel_higher_up",
+      "y": 180
+    },
+    "facing=south,is_higher_up=true,panel_state=fixed": {
+      "model": "breaking_tools_drops_items:block/fixed_panel_higher_up",
+      "y": 180
+    },
+    "facing=south,is_higher_up=true,panel_state=perma_broken": {
+      "model": "breaking_tools_drops_items:block/perma_broken_panel_higher_up",
+      "y": 180
+    },
+    "facing=west,is_higher_up=false,panel_state=broken": {
+      "model": "breaking_tools_drops_items:block/broken_panel",
+      "y": 270
+    },
+    "facing=west,is_higher_up=false,panel_state=fixed": {
+      "model": "breaking_tools_drops_items:block/fixed_panel",
+      "y": 270
+    },
+    "facing=west,is_higher_up=false,panel_state=perma_broken": {
+      "model": "breaking_tools_drops_items:block/perma_broken_panel",
+      "y": 270
+    },
+    "facing=west,is_higher_up=true,panel_state=broken": {
+      "model": "breaking_tools_drops_items:block/broken_panel_higher_up",
+      "y": 270
+    },
+    "facing=west,is_higher_up=true,panel_state=fixed": {
+      "model": "breaking_tools_drops_items:block/fixed_panel_higher_up",
+      "y": 270
+    },
+    "facing=west,is_higher_up=true,panel_state=perma_broken": {
+      "model": "breaking_tools_drops_items:block/perma_broken_panel_higher_up",
+      "y": 270
+    }
+  }
+}

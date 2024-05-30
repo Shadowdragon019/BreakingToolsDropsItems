@@ -20,26 +20,30 @@ abstract class ItemStackMixin extends net.minecraftforge.common.capabilities.Cap
 	
 	@Unique
 	public String btds$getResourceLocation() {
-		return ForgeRegistries.ITEMS.getKey(((ItemStack) (Object) this).getItem()).toString();
+		return ForgeRegistries.ITEMS.getKey(((ItemStack) (Object) this).getItem()).toString().replace("minecraft:", "");
 	}
 	
 	@Inject(method = "hurt", at = @At("RETURN"))
 	private void hurtMixin(int amount, RandomSource random, ServerPlayer player, CallbackInfoReturnable<Boolean> cir) {
 		if (cir.getReturnValue()) {
 			var drops = BtdsConfig.drops.get(btds$getResourceLocation());
-			for (var entry : drops.entrySet()) {
-				player.spawnAtLocation(new ItemStack(
-						ForgeRegistries.ITEMS.getValue(new ResourceLocation(entry.getKey())),
-						entry.getValue()
-				));
+			if (drops != null) {
+				for (var entry : drops.entrySet()) {
+					player.spawnAtLocation(new ItemStack(
+							ForgeRegistries.ITEMS.getValue(new ResourceLocation(entry.getKey())),
+							entry.getValue()
+					));
+				}
 			}
 			
 			var commands = BtdsConfig.commands.get(btds$getResourceLocation());
-			for (var command : commands) {
-				player.serverLevel().getServer().getCommands().performPrefixedCommand(
-						player.serverLevel().getServer().createCommandSourceStack(),
-						command
-				);
+			if (commands != null) {
+				for (var command : commands) {
+					player.serverLevel().getServer().getCommands().performPrefixedCommand(
+							player.serverLevel().getServer().createCommandSourceStack(),
+							command
+					);
+				}
 			}
 		}
 	}

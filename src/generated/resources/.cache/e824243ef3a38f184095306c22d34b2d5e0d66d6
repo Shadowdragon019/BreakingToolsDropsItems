@@ -1,0 +1,6 @@
+// 1.20.1	2024-05-29T21:16:40.639650594	Registrate Provider for breaking_tools_drops_items [Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
+5134040f2e94ec6e94e73a4a0d305027a81ec8dd assets/breaking_tools_drops_items/blockstates/panel.json
+13990e015f41c89b57bae89c5dbfa9e6e724de13 assets/breaking_tools_drops_items/lang/en_ud.json
+bc3f0b5ee399e44fa78d1373fb14c08facbd5f73 assets/breaking_tools_drops_items/lang/en_us.json
+55758ec94d2a563b5e06a4fcd3af7acab3fd11b4 assets/breaking_tools_drops_items/models/item/panel.json
+0e554d4793defefa7278a4082f523db37eb59c2d data/breaking_tools_drops_items/loot_tables/blocks/panel.json

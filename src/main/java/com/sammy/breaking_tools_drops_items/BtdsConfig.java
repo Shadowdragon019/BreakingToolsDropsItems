@@ -45,14 +45,14 @@ public class BtdsConfig {
 			JsonObject data = gson.fromJson(reader, JsonObject.class);
 			
 			for (var itemConfig : data.entrySet()) {
-				var item = itemConfig.getKey();
+				var item = itemConfig.getKey().replace("minecraft:", "");
 				var config = itemConfig.getValue().getAsJsonObject();
 				var _drops = config.getAsJsonObject("drops");
 				var _commands = config.getAsJsonArray("commands");
 				if (_drops != null) {
 					drops.put(item, new HashMap<>());
 					for (var entry : _drops.entrySet()) {
-						drops.get(item).put(entry.getKey(), entry.getValue().getAsInt());
+						drops.get(item).put(entry.getKey().replace("minecraft:", ""), entry.getValue().getAsInt());
 					}
 				}
 				if (_commands != null) {
